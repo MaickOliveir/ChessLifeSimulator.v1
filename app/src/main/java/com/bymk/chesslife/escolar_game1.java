@@ -22,7 +22,7 @@ public class escolar_game1 extends AppCompatActivity {
         Button button001;
         Button button002;
 
-        button3 = (Button) findViewById(R.id.button3);
+        button3 = findViewById(R.id.button3);
         final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.positive);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
