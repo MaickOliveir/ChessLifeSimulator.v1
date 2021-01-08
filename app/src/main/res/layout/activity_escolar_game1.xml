@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".escolar_game1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/teste"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="729dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttnb4"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/jogo1_escolar"
+                android:textColor="#FFEBEE"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="wrap_content"
+                android:layout_height="414dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/escolar_1" />
+
+            <Button
+                android:id="@+id/button98"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button9"
+                android:text="mate em 1" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button9"
+                android:text="mate em 2" />
+
+            <Button
+                android:id="@+id/button001"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button9"
+                android:text="mate em 3" />
+
+            <Button
+                android:id="@+id/button002"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button9"
+                android:text="não é possível" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

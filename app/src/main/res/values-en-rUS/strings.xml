@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro1">The most used model for the titling of chess players is based on four main titles: CANDIDATE MASTER (CM), MASTER FYDI (MF), INTERNATIONAL MASTER (MI) AND GRANDMASTER (GM)</string>
+    <string name="amador">Title: Amateur</string>
+    <string name="candidato_mestre">CANDIDATE MASTER - CM</string>
+    <string name="mestre_fydi">FYDI MASTER - FM</string>
+    <string name="mestre_internacional">INTERNACIONAL MASTER - IM</string>
+    <string name="grande_mestre">GRANDMASTER- GM</string>
+    <string name="avancar">NEXT</string>
+    <string name="candidato_bemvindo"> The most usual way to qualify for a Candidate Master is to reach 2200 points or more of Elo rating. The following are some tournaments to achieve that score.</string>
+    <string name="candidato_mestre1">MASTER CANDIDATE</string>
+    <string name="torneio_interescolar1">Interschool Tournament</string>
+    <string name="torneio_municipal">Municipal Tournament</string>
+    <string name="campeonato_estadual">State Championship</string>
+    <string name="primeiro_jogo">FIRST GAME</string>
+    <string name="estudante1">STUDENT 1</string>
+    <string name="jogo1_escolar">In this position is it possible to checkmate how many movements?</string>
+</resources>

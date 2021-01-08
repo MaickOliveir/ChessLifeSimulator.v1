@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".menuRoad">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="30px">
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="249dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/logo2" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button9"
+                android:gravity="center"
+                android:text="Rating: 0"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="42dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button9"
+                android:gravity="center"
+                android:text="@string/amador"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button8"
+                android:gravity="center"
+                android:text="@string/candidato_mestre1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/torneio_interescolar1"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton99"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttnb4"
+                android:src="@drawable/escolar_mini" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/torneio_municipal"
+                android:textSize="24sp" />
+
+            <ImageButton
+
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/mybutton"
+                android:clickable="true"
+                android:src="@drawable/estadual_trofeu_mini" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/campeonato_estadual"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/mybutton"
+                android:clickable="true"
+                android:src="@drawable/municipal_trofeu_mini" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

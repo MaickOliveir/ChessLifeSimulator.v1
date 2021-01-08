@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nacional_game6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/teste"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="729dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="400dp"
+                android:layout_height="79dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttnb4"
+                android:gravity="center"
+                android:text="Nesta posição é possível dar CHECKMATE com quais peças?"
+                android:textColor="#FFEBEE"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="wrap_content"
+                android:layout_height="412dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/nacional_6" />
+
+            <Button
+                android:id="@+id/button031"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="rainha, cavalo" />
+
+            <Button
+                android:id="@+id/button030"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="rainha, cavalo, torre" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="torre, cavalo" />
+
+            <Button
+                android:id="@+id/button032"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="rainha, torre" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".escolar_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="40dp"
+                android:text="SEGUNDO JOGO"
+                android:textColor="#ECECEC"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="139dp"
+                android:layout_height="144dp"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@drawable/img_202" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="159dp"
+                android:layout_height="211dp"
+                app:srcCompat="@drawable/img_132" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="236dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button8"
+                android:gravity="center"
+                android:text="ESTUDANTE 2"
+                android:textColor="#ECECEC"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="236dp"
+                android:layout_height="51dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button8"
+                android:gravity="center"
+                android:text="RATING: 1157"
+                android:textColor="#ECECEC"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="286dp"
+                android:layout_height="53dp"
+                android:background="@drawable/buttnb4"
+                android:text="avançar"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="169dp"
+                tools:layout_editor_absoluteY="410dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

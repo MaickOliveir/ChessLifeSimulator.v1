@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panamericano_game1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/teste"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="729dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttnb4"
+                android:gravity="center"
+                android:text="Qual o tema tático desta posição?"
+                android:textColor="#FFEBEE"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/panamerican_game1" />
+
+
+            <Button
+                android:id="@+id/button051"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="ataque duplo" />
+
+            <Button
+                android:id="@+id/button066"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="cravada" />
+
+
+            <Button
+                android:id="@+id/button067"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="captura da defesa" />
+
+            <Button
+                android:id="@+id/button068"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="espeto" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".internacional_game2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/teste"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-69dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="729dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/buttnb4"
+                android:gravity="center"
+                android:text="Você está em apuros, qual dessas jogadas lhe garante o empate?"
+                android:textColor="#FFEBEE"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/internacional_2" />
+
+            <Button
+                android:id="@+id/button91"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="torre g3" />
+
+            <Button
+                android:id="@+id/button92"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="torre a6" />
+
+            <Button
+                android:id="@+id/button93"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mybutton2"
+                android:text="torre e6" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bymk.chesslife" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Chess Life"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5620680917874511~7134647193"/>
+
+        <activity android:name="com.bymk.chesslife.slashScreen"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.grandeMestre"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.inicializador" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bymk.chesslife.titulo_grandeMestre"  android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.parabens_6"  android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.resultado_5"   android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamerican_6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamerican_5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamerican_4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamerican_3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamerican_2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamerican_1"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamericano_game6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamericano_game5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamericano_game4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamericano_game3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamericano_game2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.panamericano_game1"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.pan_american_bemVindo"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.menuRoad6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.qualificacao_4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.titulo_mestreInternacional"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.parabens5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.resultado_4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.juniorChampiom"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.menuRoad5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.mestreInternacional"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.qualificacao3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.parabens4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.titulo_mestreFydi"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.MenuRoad4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.mestre_fydi"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.titulo_candidatoMestre"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.qualificacao2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.candidatoMestre"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.qualificacao1"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_bemVindo"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_bemVindo"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.MenuRoad3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.interescolarBemVindo" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.menuRoad2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.escolar_game2" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.escolar_2" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.escolar_game1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.escolar_1"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.escolar_bemVindo"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estudante1"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.menuRoad"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_game7"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_game6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_game5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_game4" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_game3" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_game8" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_game2" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_game1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_8" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_7" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_5" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.internacional_4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.internacional_1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.resultado_3" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_game10" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_10" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_game9" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_9" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_game8"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_8"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_game7"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_7"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_game6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_game5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_game4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_game3" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_game2" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_game1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_5" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.nacional_3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.nacional_1"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.parabens3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.resultado2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_game6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_game5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_game4"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_game3" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.estadual_game2" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.estadual_game1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.estadual_6"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_5"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_4" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.estadual_3"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estadual_1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.parabens2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.resultado1"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.interescolar_game4" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.quintoInter"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.interescolar_game5" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.quartoInter" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.interescolar_game3" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.terceiroInter" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.interescolar_game2" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.segundoInter" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.interescolar_game1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.primeraInter" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.parabens1" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.student2"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.estudante3" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.ThirdGame" android:screenOrientation="portrait" />
+        <activity android:name="com.bymk.chesslife.SecondGame"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.FirstGame"  android:screenOrientation="portrait"/>
+        <activity android:name="com.bymk.chesslife.MainActivity"  android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

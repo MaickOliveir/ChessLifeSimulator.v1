@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultado1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteY="7dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="26dp"
+                android:layout_marginTop="50dp"
+                android:text="CLASSIFICAÇÃO FINAL"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="CAMPEÃO"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="118dp"
+                android:layout_height="114dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/you" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="VOCÊ"
+                android:textSize="18sp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/img_140" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2º"
+                    android:textSize="24sp"/>
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="JOÃO AKITA "
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/img_143" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="3º"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="189dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="LUCAS FERRAZ"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/img_128" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="4º"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="188dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="JACKSON CRUZ"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/img_111" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="5º"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="191dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="RAQUEL MARTINS"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="286dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttnb4"
+                android:text="avançar"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="416dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
